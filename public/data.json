@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "nombre": "Mouse Gamer Ergonómico",
+    "descripcion": "Sensor óptico de alta precisión y botones programables para optimizar tu flujo de trabajo o juego.",
+    "precio": 1000,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 2,
+    "nombre": "Polera Básica de Algodón",
+    "descripcion": "Textura suave y corte moderno, ideal para combinar con cualquier estilo casual.",
+    "precio": 2000,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 3,
+    "nombre": "Hub USB-C 5 en 1",
+    "descripcion": "Expande tus puertos con salidas HDMI, USB 3.0 y lector de tarjetas en un diseño compacto de aluminio.",
+    "precio": 3000,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 4,
+    "nombre": "Jacket Cortavientos",
+    "descripcion": "Material ligero y resistente al agua, perfecta para actividades al aire libre o días de lluvia ligera.",
+    "precio": 4000,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  }
+]
