@@ -1,7 +1,7 @@
 import { FaShoppingCart, FaUser, FaMoon, FaSun } from 'react-icons/fa';
 import styles from './Navbar.module.css';
 
-const Navbar = ({theme, toggleTheme}) => {
+const Navbar = ({theme, toggleTheme, totalCartItems}) => {
   return (
     <>
         <header className={styles.header}>
@@ -9,7 +9,12 @@ const Navbar = ({theme, toggleTheme}) => {
             <nav>
                 <button className={styles.navButton}>Iniciar Sesión</button>
                 <button className={styles.navButton}>Registrarse</button>
-                <button className={styles.navButton}><FaShoppingCart /></button>
+                <button className={styles.navButton}>
+                    <FaShoppingCart />
+                    {totalCartItems > 0 && (
+                        <span className={styles.cartItemCount}>{totalCartItems}</span>
+                    )}
+                </button>
                 <button 
                     className={styles.themeToggle} 
                     onClick={toggleTheme}>

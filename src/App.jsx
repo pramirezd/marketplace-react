@@ -14,6 +14,7 @@ const App = () => {
   const [columns, setColumns] = useState(4);
   const [rows, setRows] = useState(2);
   const [sortOrder, setSortOrder] = useState('');
+  const [cart, setCart] = useState([]);
 
   // itemsPerPage es siempre rows × columns, derivado del estado (no es estado propio)
   const itemsPerPage = columns * rows;
@@ -105,6 +106,19 @@ const App = () => {
     setTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
   }
 
+  function addToCart(product) {
+    setCart((prevCart) => {
+      const existingItem = prevCart.find((item) => item.id === product.id);
+      if (existingItem) {
+        return prevCart.map((item) =>
+          item.id === product.id ? { ...item, quantity: item.quantity + 1 } : item
+        );
+      } else {
+        return [...prevCart, { ...product, quantity: 1 }];
+      }
+    });
+  }
+
   const filteredProducts = useMemo(() => {
     const filtered = products.filter((product) => {
       const matchesSearch = product.nombre.toLowerCase().includes(searchTerm.toLowerCase());
@@ -137,9 +151,15 @@ const App = () => {
 
   const displayPage = Math.min(currentPage, totalPages || 1);
 
+  const totalCartItems = cart.reduce((total, item) => total + item.quantity, 0);
+
   return (
     <>
-      <Navbar theme={theme} toggleTheme={toggleTheme} />
+      <Navbar 
+        theme={theme} 
+        toggleTheme={toggleTheme} 
+        totalCartItems={totalCartItems} 
+      />
 
       <main className={styles.mainContent}>
         <aside className={styles.sidebar}>
@@ -224,7 +244,11 @@ const App = () => {
             }}
           >
             {paginatedProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard 
+                key={product.id} 
+                product={product}
+                addToCart={addToCart} 
+              />
             ))}
           </section>
 

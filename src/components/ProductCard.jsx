@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from 'react';
 import styles from './ProductCard.module.css';
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, addToCart }) => {
   const wrapperRef = useRef(null);
   const [clampLines, setClampLines] = useState(3);
 
@@ -44,7 +44,7 @@ const ProductCard = ({ product }) => {
       </div>
 
       <p className={styles.price}>Precio: ${product.precio}</p>
-      <button>Comprar</button>
+      <button onClick={() => addToCart(product)}>Comprar</button>
     </article>
   );
 };
