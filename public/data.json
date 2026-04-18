@@ -1,34 +1,1282 @@
 [
   {
     "id": 1,
-    "nombre": "Mouse Gamer Ergonómico",
-    "descripcion": "Sensor óptico de alta precisión y botones programables para optimizar tu flujo de trabajo o juego.",
-    "precio": 1000,
+    "nombre": "Laptop Gamer",
+    "descripcion": "Excelente laptop gamer de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 922,
     "imagen": "https://placehold.co/100x100",
     "categoria": "technology"
   },
   {
     "id": 2,
-    "nombre": "Polera Básica de Algodón",
-    "descripcion": "Textura suave y corte moderno, ideal para combinar con cualquier estilo casual.",
-    "precio": 2000,
+    "nombre": "Mouse Óptico",
+    "descripcion": "Excelente mouse óptico de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 214,
     "imagen": "https://placehold.co/100x100",
-    "categoria": "clothes"
+    "categoria": "technology"
   },
   {
     "id": 3,
-    "nombre": "Hub USB-C 5 en 1",
-    "descripcion": "Expande tus puertos con salidas HDMI, USB 3.0 y lector de tarjetas en un diseño compacto de aluminio.",
-    "precio": 3000,
+    "nombre": "Teclado Mecánico",
+    "descripcion": "Excelente teclado mecánico de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1403,
     "imagen": "https://placehold.co/100x100",
     "categoria": "technology"
   },
   {
     "id": 4,
-    "nombre": "Jacket Cortavientos",
-    "descripcion": "Material ligero y resistente al agua, perfecta para actividades al aire libre o días de lluvia ligera.",
-    "precio": 4000,
+    "nombre": "Monitor Curvo 144Hz",
+    "descripcion": "Excelente monitor curvo 144hz de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1780,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 5,
+    "nombre": "Auriculares con Cancelación de Ruido",
+    "descripcion": "Excelente auriculares con cancelación de ruido de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4352,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 6,
+    "nombre": "Webcam 4K",
+    "descripcion": "Excelente webcam 4k de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3717,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 7,
+    "nombre": "Micrófono Condensador",
+    "descripcion": "Excelente micrófono condensador de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4478,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 8,
+    "nombre": "Disco Duro Externo 2TB",
+    "descripcion": "Excelente disco duro externo 2tb de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 454,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 9,
+    "nombre": "SSD NVMe 1TB",
+    "descripcion": "Excelente ssd nvme 1tb de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2154,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 10,
+    "nombre": "Memoria RAM 32GB RGB",
+    "descripcion": "Excelente memoria ram 32gb rgb de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 150,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 11,
+    "nombre": "Tarjeta Gráfica RTX 4070",
+    "descripcion": "Excelente tarjeta gráfica rtx 4070 de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4704,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 12,
+    "nombre": "Placa Base ATX",
+    "descripcion": "Excelente placa base atx de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2552,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 13,
+    "nombre": "Fuente de Alimentación 750W",
+    "descripcion": "Excelente fuente de alimentación 750w de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1729,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 14,
+    "nombre": "Gabinete de PC con Cristal",
+    "descripcion": "Excelente gabinete de pc con cristal de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 646,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 15,
+    "nombre": "Silla Ergonómica Gamer",
+    "descripcion": "Excelente silla ergonómica gamer de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1060,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 16,
+    "nombre": "Smartwatch con GPS",
+    "descripcion": "Excelente smartwatch con gps de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1546,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 17,
+    "nombre": "Tablet de 11 Pulgadas",
+    "descripcion": "Excelente tablet de 11 pulgadas de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1968,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 18,
+    "nombre": "Smartphone 5G",
+    "descripcion": "Excelente smartphone 5g de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2043,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 19,
+    "nombre": "Cargador Inalámbrico Rápido",
+    "descripcion": "Excelente cargador inalámbrico rápido de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2772,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 20,
+    "nombre": "Cable USB-C de Nylon",
+    "descripcion": "Excelente cable usb-c de nylon de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4443,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 21,
+    "nombre": "Hub USB Tipo C Múltiple",
+    "descripcion": "Excelente hub usb tipo c múltiple de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1690,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 22,
+    "nombre": "Router WiFi 6",
+    "descripcion": "Excelente router wifi 6 de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2859,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 23,
+    "nombre": "Repetidor de Señal Mesh",
+    "descripcion": "Excelente repetidor de señal mesh de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 526,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 24,
+    "nombre": "Switch de Red 8 Puertos",
+    "descripcion": "Excelente switch de red 8 puertos de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2253,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 25,
+    "nombre": "Altavoz Bluetooth Impermeable",
+    "descripcion": "Excelente altavoz bluetooth impermeable de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2984,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 26,
+    "nombre": "Proyector Portátil HD",
+    "descripcion": "Excelente proyector portátil hd de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3724,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 27,
+    "nombre": "Cámara Reflex DSLR",
+    "descripcion": "Excelente cámara reflex dslr de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 213,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 28,
+    "nombre": "Lente 50mm f/1.8",
+    "descripcion": "Excelente lente 50mm f/1.8 de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 880,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 29,
+    "nombre": "Trípode de Aluminio",
+    "descripcion": "Excelente trípode de aluminio de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3390,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 30,
+    "nombre": "Estabilizador Gimbal para Móvil",
+    "descripcion": "Excelente estabilizador gimbal para móvil de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3491,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 31,
+    "nombre": "Drone con Cámara 4K",
+    "descripcion": "Excelente drone con cámara 4k de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2999,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 32,
+    "nombre": "Batería Externa 20000mAh",
+    "descripcion": "Excelente batería externa 20000mah de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1419,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "technology"
+  },
+  {
+    "id": 33,
+    "nombre": "Camiseta de Algodón Orgánico",
+    "descripcion": "Excelente camiseta de algodón orgánico de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3617,
     "imagen": "https://placehold.co/100x100",
     "categoria": "clothes"
+  },
+  {
+    "id": 34,
+    "nombre": "Pantalón Chino Ajustado",
+    "descripcion": "Excelente pantalón chino ajustado de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1941,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 35,
+    "nombre": "Jeans Clásicos Azules",
+    "descripcion": "Excelente jeans clásicos azules de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2862,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 36,
+    "nombre": "Sudadera Oversize",
+    "descripcion": "Excelente sudadera oversize de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3647,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 37,
+    "nombre": "Chaqueta Impermeable",
+    "descripcion": "Excelente chaqueta impermeable de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 651,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 38,
+    "nombre": "Abrigo de Lana de Invierno",
+    "descripcion": "Excelente abrigo de lana de invierno de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2351,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 39,
+    "nombre": "Suéter de Punto Delgado",
+    "descripcion": "Excelente suéter de punto delgado de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2223,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 40,
+    "nombre": "Bufanda a Cuadros",
+    "descripcion": "Excelente bufanda a cuadros de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 652,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 41,
+    "nombre": "Guantes Táctiles",
+    "descripcion": "Excelente guantes táctiles de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1789,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 42,
+    "nombre": "Gorro de Lana Caliente",
+    "descripcion": "Excelente gorro de lana caliente de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1400,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 43,
+    "nombre": "Sombrero de Verano",
+    "descripcion": "Excelente sombrero de verano de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3133,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 44,
+    "nombre": "Calcetines Deportivos Transpirables",
+    "descripcion": "Excelente calcetines deportivos transpirables de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2404,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 45,
+    "nombre": "Zapatos de Vestir Elegantes",
+    "descripcion": "Excelente zapatos de vestir elegantes de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4563,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 46,
+    "nombre": "Zapatillas Urbanas Blancas",
+    "descripcion": "Excelente zapatillas urbanas blancas de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2189,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 47,
+    "nombre": "Botas de Cuero Resistentes",
+    "descripcion": "Excelente botas de cuero resistentes de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4242,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 48,
+    "nombre": "Sandalias de Playa Livianas",
+    "descripcion": "Excelente sandalias de playa livianas de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2490,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 49,
+    "nombre": "Vestido de Noche Estampado",
+    "descripcion": "Excelente vestido de noche estampado de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4554,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 50,
+    "nombre": "Falda Plisada Midi",
+    "descripcion": "Excelente falda plisada midi de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1904,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 51,
+    "nombre": "Blusa de Seda Elegante",
+    "descripcion": "Excelente blusa de seda elegante de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3290,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 52,
+    "nombre": "Camisa Oxford de Manga Larga",
+    "descripcion": "Excelente camisa oxford de manga larga de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4441,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 53,
+    "nombre": "Traje de Dos Piezas Formal",
+    "descripcion": "Excelente traje de dos piezas formal de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1794,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 54,
+    "nombre": "Corbata de Seda a Rayas",
+    "descripcion": "Excelente corbata de seda a rayas de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 648,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 55,
+    "nombre": "Cinturón de Cuero Reversible",
+    "descripcion": "Excelente cinturón de cuero reversible de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1137,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 56,
+    "nombre": "Ropa Interior de Algodón",
+    "descripcion": "Excelente ropa interior de algodón de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3535,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 57,
+    "nombre": "Pijama de Franela Suave",
+    "descripcion": "Excelente pijama de franela suave de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4272,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 58,
+    "nombre": "Traje de Baño de Secado Rápido",
+    "descripcion": "Excelente traje de baño de secado rápido de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 520,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 59,
+    "nombre": "Chaleco Acolchado de Otoño",
+    "descripcion": "Excelente chaleco acolchado de otoño de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1851,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 60,
+    "nombre": "Chubasquero con Capucha Ligero",
+    "descripcion": "Excelente chubasquero con capucha ligero de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 140,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 61,
+    "nombre": "Leggings de Entrenamiento",
+    "descripcion": "Excelente leggings de entrenamiento de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2697,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 62,
+    "nombre": "Pantalones Cortos Deportivos",
+    "descripcion": "Excelente pantalones cortos deportivos de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4519,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 63,
+    "nombre": "Conjunto de Ropa Deportiva",
+    "descripcion": "Excelente conjunto de ropa deportiva de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4843,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 64,
+    "nombre": "Chaqueta de Cuero Motera",
+    "descripcion": "Excelente chaqueta de cuero motera de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1858,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "clothes"
+  },
+  {
+    "id": 65,
+    "nombre": "Sofá de Tres Plazas",
+    "descripcion": "Excelente sofá de tres plazas de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3811,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 66,
+    "nombre": "Silla de Comedor Nórdica",
+    "descripcion": "Excelente silla de comedor nórdica de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 526,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 67,
+    "nombre": "Mesa de Centro de Cristal",
+    "descripcion": "Excelente mesa de centro de cristal de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1391,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 68,
+    "nombre": "Cama King Size con Almacenaje",
+    "descripcion": "Excelente cama king size con almacenaje de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4057,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 69,
+    "nombre": "Colchón Viscoelástico Ergonómico",
+    "descripcion": "Excelente colchón viscoelástico ergonómico de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4443,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 70,
+    "nombre": "Almohada Cervical de Espuma",
+    "descripcion": "Excelente almohada cervical de espuma de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 331,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 71,
+    "nombre": "Juego de Sábanas de Satén",
+    "descripcion": "Excelente juego de sábanas de satén de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4038,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 72,
+    "nombre": "Manta de Franela Suave",
+    "descripcion": "Excelente manta de franela suave de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 381,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 73,
+    "nombre": "Juego de Toallas de Algodón",
+    "descripcion": "Excelente juego de toallas de algodón de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3381,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 74,
+    "nombre": "Cortina Opaca Térmica",
+    "descripcion": "Excelente cortina opaca térmica de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1506,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 75,
+    "nombre": "Alfombra de Pelo Largo",
+    "descripcion": "Excelente alfombra de pelo largo de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2727,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 76,
+    "nombre": "Lámpara de Pie Moderna",
+    "descripcion": "Excelente lámpara de pie moderna de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2720,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 77,
+    "nombre": "Pack de Bombillas LED Inteligentes",
+    "descripcion": "Excelente pack de bombillas led inteligentes de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4003,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 78,
+    "nombre": "Cuadro Abstracto Decorativo",
+    "descripcion": "Excelente cuadro abstracto decorativo de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1978,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 79,
+    "nombre": "Espejo de Pared Redondo",
+    "descripcion": "Excelente espejo de pared redondo de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2187,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 80,
+    "nombre": "Reloj de Pared Minimalista",
+    "descripcion": "Excelente reloj de pared minimalista de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4909,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 81,
+    "nombre": "Jarrón de Cerámica Artesanal",
+    "descripcion": "Excelente jarrón de cerámica artesanal de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 526,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 82,
+    "nombre": "Maceta Colgante para Plantas",
+    "descripcion": "Excelente maceta colgante para plantas de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1729,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 83,
+    "nombre": "Planta Artificial Realista",
+    "descripcion": "Excelente planta artificial realista de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1056,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 84,
+    "nombre": "Vela Aromática de Lavanda",
+    "descripcion": "Excelente vela aromática de lavanda de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1740,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 85,
+    "nombre": "Cesta de Mimbre Organizadora",
+    "descripcion": "Excelente cesta de mimbre organizadora de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4180,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 86,
+    "nombre": "Estantería Flotante de Madera",
+    "descripcion": "Excelente estantería flotante de madera de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 832,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 87,
+    "nombre": "Armario Zapatero Compacto",
+    "descripcion": "Excelente armario zapatero compacto de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3727,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 88,
+    "nombre": "Cajonera de Madera Blanca",
+    "descripcion": "Excelente cajonera de madera blanca de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1827,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 89,
+    "nombre": "Escritorio de Estudio Minimalista",
+    "descripcion": "Excelente escritorio de estudio minimalista de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4443,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 90,
+    "nombre": "Mesa Auxiliar Redonda",
+    "descripcion": "Excelente mesa auxiliar redonda de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2697,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 91,
+    "nombre": "Silla de Oficina Ergonómica",
+    "descripcion": "Excelente silla de oficina ergonómica de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1947,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 92,
+    "nombre": "Vajilla de Porcelana Fina",
+    "descripcion": "Excelente vajilla de porcelana fina de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2984,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 93,
+    "nombre": "Cubertería de Acero Inoxidable",
+    "descripcion": "Excelente cubertería de acero inoxidable de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2187,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 94,
+    "nombre": "Set de Vasos de Cristal",
+    "descripcion": "Excelente set de vasos de cristal de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2724,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 95,
+    "nombre": "Copas de Vino Elegantes",
+    "descripcion": "Excelente copas de vino elegantes de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 481,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 96,
+    "nombre": "Juego de Sartenes Antiadherentes",
+    "descripcion": "Excelente juego de sartenes antiadherentes de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1904,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "home"
+  },
+  {
+    "id": 97,
+    "nombre": "Balón de Fútbol Profesional",
+    "descripcion": "Excelente balón de fútbol profesional de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3108,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 98,
+    "nombre": "Pelota de Baloncesto Oficial",
+    "descripcion": "Excelente pelota de baloncesto oficial de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1135,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 99,
+    "nombre": "Raqueta de Tenis Profesional",
+    "descripcion": "Excelente raqueta de tenis profesional de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2988,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 100,
+    "nombre": "Tubo de Pelotas de Tenis",
+    "descripcion": "Excelente tubo de pelotas de tenis de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3072,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 101,
+    "nombre": "Bate de Béisbol de Aluminio",
+    "descripcion": "Excelente bate de béisbol de aluminio de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2862,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 102,
+    "nombre": "Guante de Béisbol de Cuero",
+    "descripcion": "Excelente guante de béisbol de cuero de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3939,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 103,
+    "nombre": "Set de Palos de Golf",
+    "descripcion": "Excelente set de palos de golf de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 451,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 104,
+    "nombre": "Paquete de Bolas de Golf",
+    "descripcion": "Excelente paquete de bolas de golf de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2045,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 105,
+    "nombre": "Bicicleta de Montaña 29 Pulgadas",
+    "descripcion": "Excelente bicicleta de montaña 29 pulgadas de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1395,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 106,
+    "nombre": "Casco de Ciclismo Aerodinámico",
+    "descripcion": "Excelente casco de ciclismo aerodinámico de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 880,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 107,
+    "nombre": "Set de Rodilleras y Coderas",
+    "descripcion": "Excelente set de rodilleras y coderas de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2726,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 108,
+    "nombre": "Pesas Rusas de Hierro Fundido",
+    "descripcion": "Excelente pesas rusas de hierro fundido de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4531,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 109,
+    "nombre": "Mancuernas Ajustables de 24kg",
+    "descripcion": "Excelente mancuernas ajustables de 24kg de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1740,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 110,
+    "nombre": "Barra de Dominadas de Puerta",
+    "descripcion": "Excelente barra de dominadas de puerta de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3720,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 111,
+    "nombre": "Esterilla de Yoga Antideslizante",
+    "descripcion": "Excelente esterilla de yoga antideslizante de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3570,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 112,
+    "nombre": "Bloque de Espuma para Yoga",
+    "descripcion": "Excelente bloque de espuma para yoga de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1403,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 113,
+    "nombre": "Cuerda de Saltar de Velocidad",
+    "descripcion": "Excelente cuerda de saltar de velocidad de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3866,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 114,
+    "nombre": "Cinta de Correr Plegable",
+    "descripcion": "Excelente cinta de correr plegable de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3288,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 115,
+    "nombre": "Bicicleta Estática Magnética",
+    "descripcion": "Excelente bicicleta estática magnética de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1059,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 116,
+    "nombre": "Saco de Boxeo Pesado",
+    "descripcion": "Excelente saco de boxeo pesado de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1819,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 117,
+    "nombre": "Guantes de Boxeo de Entrenamiento",
+    "descripcion": "Excelente guantes de boxeo de entrenamiento de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1055,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 118,
+    "nombre": "Tabla de Surf Evolutiva",
+    "descripcion": "Excelente tabla de surf evolutiva de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4515,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 119,
+    "nombre": "Traje de Neopreno Completo",
+    "descripcion": "Excelente traje de neopreno completo de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2351,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 120,
+    "nombre": "Gafas de Natación Espejadas",
+    "descripcion": "Excelente gafas de natación espejadas de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2727,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 121,
+    "nombre": "Gorro de Natación de Silicona",
+    "descripcion": "Excelente gorro de natación de silicona de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2185,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 122,
+    "nombre": "Aletas de Buceo Flexibles",
+    "descripcion": "Excelente aletas de buceo flexibles de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3717,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 123,
+    "nombre": "Mochila de Senderismo 50L",
+    "descripcion": "Excelente mochila de senderismo 50l de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2862,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 124,
+    "nombre": "Tienda de Campaña Familiar",
+    "descripcion": "Excelente tienda de campaña familiar de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3939,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 125,
+    "nombre": "Saco de Dormir de Invierno",
+    "descripcion": "Excelente saco de dormir de invierno de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 451,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 126,
+    "nombre": "Brújula de Navegación Precisa",
+    "descripcion": "Excelente brújula de navegación precisa de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2045,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 127,
+    "nombre": "Linterna Frontal Recargable",
+    "descripcion": "Excelente linterna frontal recargable de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1395,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 128,
+    "nombre": "Bandas de Resistencia Set",
+    "descripcion": "Excelente bandas de resistencia set de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 880,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "sports"
+  },
+  {
+    "id": 129,
+    "nombre": "El Señor de los Anillos: La Comunidad",
+    "descripcion": "Excelente el señor de los anillos: la comunidad de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2726,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 130,
+    "nombre": "Harry Potter y la Piedra Filosofal",
+    "descripcion": "Excelente harry potter y la piedra filosofal de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4531,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 131,
+    "nombre": "Cien Años de Soledad",
+    "descripcion": "Excelente cien años de soledad de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1740,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 132,
+    "nombre": "1984 - Edición Especial",
+    "descripcion": "Excelente 1984 - edición especial de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3720,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 133,
+    "nombre": "Un Mundo Feliz",
+    "descripcion": "Excelente un mundo feliz de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3570,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 134,
+    "nombre": "Rebelión en la Granja",
+    "descripcion": "Excelente rebelión en la granja de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1403,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 135,
+    "nombre": "Matar a un Ruiseñor",
+    "descripcion": "Excelente matar a un ruiseñor de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3866,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 136,
+    "nombre": "Orgullo y Prejuicio Clásico",
+    "descripcion": "Excelente orgullo y prejuicio clásico de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3288,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 137,
+    "nombre": "Crimen y Castigo - Tapa Dura",
+    "descripcion": "Excelente crimen y castigo - tapa dura de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1059,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 138,
+    "nombre": "Los Miserables",
+    "descripcion": "Excelente los miserables de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1819,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 139,
+    "nombre": "Don Quijote de la Mancha",
+    "descripcion": "Excelente don quijote de la mancha de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1055,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 140,
+    "nombre": "La Odisea Ilustrada",
+    "descripcion": "Excelente la odisea ilustrada de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4515,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 141,
+    "nombre": "La Ilíada",
+    "descripcion": "Excelente la ilíada de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2351,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 142,
+    "nombre": "El Principito - Edición Aniversario",
+    "descripcion": "Excelente el principito - edición aniversario de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2727,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 143,
+    "nombre": "El Alquimista",
+    "descripcion": "Excelente el alquimista de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2185,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 144,
+    "nombre": "El Código Da Vinci",
+    "descripcion": "Excelente el código da vinci de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3717,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 145,
+    "nombre": "Ángeles y Demonios",
+    "descripcion": "Excelente ángeles y demonios de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1789,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 146,
+    "nombre": "El Nombre de la Rosa",
+    "descripcion": "Excelente el nombre de la rosa de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1400,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 147,
+    "nombre": "Crónica de una Muerte Anunciada",
+    "descripcion": "Excelente crónica de una muerte anunciada de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3133,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 148,
+    "nombre": "Rayuela de Cortázar",
+    "descripcion": "Excelente rayuela de cortázar de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2404,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 149,
+    "nombre": "La Metamorfosis y Otros Relatos",
+    "descripcion": "Excelente la metamorfosis y otros relatos de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4563,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 150,
+    "nombre": "El Extranjero",
+    "descripcion": "Excelente el extranjero de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2189,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 151,
+    "nombre": "Ensayo sobre la Ceguera",
+    "descripcion": "Excelente ensayo sobre la ceguera de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4242,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 152,
+    "nombre": "La Sombra del Viento",
+    "descripcion": "Excelente la sombra del viento de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 2490,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 153,
+    "nombre": "El Retrato de Dorian Gray",
+    "descripcion": "Excelente el retrato de dorian gray de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4554,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 154,
+    "nombre": "Drácula - Edición Anotada",
+    "descripcion": "Excelente drácula - edición anotada de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1904,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 155,
+    "nombre": "Frankenstein o el Prometeo Moderno",
+    "descripcion": "Excelente frankenstein o el prometeo moderno de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3290,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 156,
+    "nombre": "El Hobbit",
+    "descripcion": "Excelente el hobbit de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 4441,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 157,
+    "nombre": "Fahrenheit 451",
+    "descripcion": "Excelente fahrenheit 451 de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1794,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 158,
+    "nombre": "Dune - Crónicas",
+    "descripcion": "Excelente dune - crónicas de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 648,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 159,
+    "nombre": "Fundación - Primer Libro",
+    "descripcion": "Excelente fundación - primer libro de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 1137,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
+  },
+  {
+    "id": 160,
+    "nombre": "Neuromante - Novela Cyberpunk",
+    "descripcion": "Excelente neuromante - novela cyberpunk de alta calidad. Diseño y rendimiento garantizado.",
+    "precio": 3535,
+    "imagen": "https://placehold.co/100x100",
+    "categoria": "books"
   }
 ]

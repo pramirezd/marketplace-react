@@ -1,0 +1,76 @@
+.mainContent {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    flex: 1;
+    padding: 0.5rem;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.sidebar {
+    background-color: var(--bg-card);
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+    border-radius: 5px;
+    align-self: start;
+}
+
+.filterGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.sidebarInput,
+.sidebarSelect {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.priceSliderContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.priceValue {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.contentArea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+
+.contentArea > h2 {
+    flex-shrink: 0;
+}
+
+.productSection {
+    display: grid;
+    /*
+      Tanto grid-template-columns como grid-template-rows se inyectan como inline
+      style desde App.jsx: columnas según el ancho, filas (1 o 2) según el alto.
+      Sin scroll: el JS garantiza que solo se renderizan rows × columns tarjetas.
+    */
+    gap: 20px;
+    flex: 1;
+    min-height: 0; /* Crucial: permite que el flex-child se encoja correctamente */
+    overflow: hidden;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+    flex-shrink: 0; /* La paginación nunca se aplasta */
+}

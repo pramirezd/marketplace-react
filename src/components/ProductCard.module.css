@@ -1,0 +1,68 @@
+.productCard {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+
+  height: 100%;
+
+  font-size: 0.9rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.productCard:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+}
+
+.image {
+  width: 100%;
+  height: 120px;
+  min-height: 80px;
+  flex-shrink: 1;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.productCard h3 {
+    font-size: 1rem;
+    line-height: 1.4;
+    min-height: calc(2 * 1rem * 1.4);
+    margin-bottom: 4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+/* Wrapper: maneja el espacio (flex) y actúa como barrera de overflow */
+.descriptionWrapper {
+    flex: 1;
+    min-height: 0;
+    overflow: hidden; /* Nada desborda ni es seleccionable fuera de este contenedor */
+}
+
+/* Párrafo interior: solo se ocupa del line-clamp */
+.description {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: var(--text-muted);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    /* WebkitLineClamp viene del inline style, calculado dinámicamente en JS */
+}
+
+.price {
+    font-weight: bold;
+    color: var(--primary-color);
+    padding: 5px;
+    margin-top: 8px;
+    flex-shrink: 0;
+}

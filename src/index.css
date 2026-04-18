@@ -1,88 +1,72 @@
+/* --- ESTADO BASE: MODO CLARO --- */
 :root {
-  /* --- COLORES PRIMARIOS (Identidad y Marca) --- */
-  --primary-color: #2563eb; /* Azul vibrante - Confianza y tecnología */
-  --primary-dark: #1e40af; /* Para estados :hover en botones */
-  --primary-light: #dbeafe; /* Fondos sutiles o badges */
+  /* Fondo principal y superficies */
+  --bg-body: #f4f6fb;       /* Gris con toque frío/azulado — más refinado que el gris plano */
+  --bg-card: #ffffff;       /* Blanco puro para máximo contraste con el fondo */
+  --border-color: #dde3f0;  /* Borde suave con sutil tinte azulado */
 
-  /* --- COLORES DE ACENTO (Conversión y Llamadas a la acción) --- */
-  --accent-color: #f97316; /* Naranja - Ideal para el botón "Comprar ahora" */
-  --accent-hover: #ea580c; /* Hover del botón de compra */
+  /* Tipografía */
+  --text-main: #0d1b2a;     /* Azul muy oscuro — más rico que el negro puro */
+  --text-muted: #5a6a85;    /* Azul-gris para textos secundarios */
 
-  /* --- COLORES NEUTROS (Base y Superficies) --- */
-  --bg-body: #f8fafc; /* Fondo general de la página (Gris muy claro) */
-  --bg-card: #ffffff; /* Fondo de las tarjetas de producto */
-  --border-color: #e2e8f0; /* Bordes sutiles y divisores */
+  /* Identidad y Acciones */
+  --primary-color: #4361ee; /* Índigo vibrante — moderno, tecnológico, de confianza */
+  --accent-color: #f77f00;  /* Naranja profundo para CTAs — enérgico sin ser agresivo */
+  --accent-hover: #d96a00;  /* Naranja más oscuro para el hover */
 
-  /* --- TIPOGRAFÍA Y ESTADOS --- */
-  --text-main: #1e293b; /* Títulos y texto principal (Casi negro) */
-  --text-muted: #64748b; /* Descripciones cortas y precios tachados */
+  /* Feedback */
+  --success: #10b981;       /* Verde esmeralda — más moderno que el verde puro */
+  --error: #e63946;         /* Rojo coral — visible sin ser alarmante */
 
-  /* --- SEMÁNTICA (Feedback del sistema) --- */
-  --success: #22c55e; /* Stock disponible / Pago exitoso */
-  --error: #ef4444; /* Sin stock / Error en tarjeta */
-  --warning: #f59e0b; /* Pocas unidades disponibles */
+  /* Sombras con tinte del primary para mayor cohesión visual */
+  --shadow-sm: 0 1px 4px 0 rgb(67 97 238 / 0.08);
+  --shadow-md: 0 4px 16px -2px rgb(67 97 238 / 0.16);
+}
 
-  /* --- SOMBRAS (Para dar profundidad a los productos) --- */
-  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+/* --- ESTADO ALTERNATIVO: MODO OSCURO --- */
+[data-theme="dark"] {
+  /* Fondo principal y superficies */
+  --bg-body: #0a0e1a;       /* Azul medianoche profundo — más rico que el negro puro */
+  --bg-card: #131929;       /* Superficie oscura con tinte azul marino */
+  --border-color: #1e2d4a;  /* Borde sutil que define sin romper la oscuridad */
+
+  /* Tipografía */
+  --text-main: #e8eeff;     /* Blanco con leve tinte frío — más suave que el blanco puro */
+  --text-muted: #7a8bb0;    /* Azul-gris medio — legible sin competir */
+
+  /* Identidad y Acciones */
+  --primary-color: #748ffc; /* Índigo más claro y suave para fondos oscuros */
+  --accent-color: #ffa040;  /* Naranja más cálido y brillante en oscuridad */
+  --accent-hover: #f77f00;  /* Versión más saturada para el hover */
+
+  /* Feedback (los mismos funcionan bien en oscuro) */
+  --success: #34d399;
+  --error: #f87171;
+
+  /* Sombras más pronunciadas en dark para dar profundidad */
+  --shadow-sm: 0 1px 4px 0 rgb(0 0 0 / 0.3);
+  --shadow-md: 0 4px 16px -2px rgb(0 0 0 / 0.5);
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 body {
-  background-color: var(--bg-body);
-  color: var(--text-main);
-  padding: 1rem;
-}
-main {
-  display: grid;
-  grid-template-columns: 250px 1fr;
-  padding: 0.5rem;
-  gap: 20px;
-}
-
-aside {
-  background-color: var(--bg-card);
-  padding: 10px;
-  border: 1px solid var(--border-color);
-  box-shadow: var(--shadow-sm);
-  border-radius: 5px;
-}
-
-.filter-group {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-}
-
-aside input,
-aside select {
-  padding: 8px;
-  width: 100%;
-  border: 1px solid var(--border-color);
-  border-radius: 5px;
-}
-
-.price-slider-container {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-top: 5px;
-}
-
-#price-value {
-  font-weight: bold;
-  color: var(--primary-color); /* Usando tus variables anteriores */
-}
-
-.products {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+    background-color: var(--bg-body);
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-main);
 }
 
 button {
@@ -100,33 +84,10 @@ button:hover {
   background-color: var(--accent-hover);
 }
 
-article {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--bg-card);
-  border: 1px solid var(--border-color);
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: var(--shadow-sm);
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-article:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-md);
-}
-
-article h3,
-article p {
-  margin-bottom: 10px;
-}
-
-article img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 5px 5px 0 0;
-  margin-bottom: 10px;
+footer {
+    background-color: var(--bg-card);
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid var(--border-color);
+    margin-top: auto;
 }

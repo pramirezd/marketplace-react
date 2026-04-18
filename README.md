@@ -1,16 +1,20 @@
-# React + Vite
+# 🛒 Mini Marketplace (Proyecto Incremental)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un e-commerce Full-Stack construido desde cero mediante una metodología incremental y guiada, con un enfoque absoluto en **Developer Experience (DX)** y **Arquitectura de UI Avanzada**.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías (Frontend)
+* **Core:** React 18 + Vite
+* **Estilos:** CSS Modules puros + CSS Variables (Theming Dinámico)
+* **Iconografía:** React Icons
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🗺️ Roadmap y Progreso
 
-## React Compiler
+### ✅ Fases 1 a 4: Bases y Arquitectura UI
+* **Setup y Componentización:** Estructura modular y asilamiento de estilos.
+* **Theming Dinámico:** Implementación de Modo Claro/Oscuro usando el atributo `[data-theme]` en el `body` para transiciones fluidas sin recargas.
+* **Data-Driven Layout (Chasis Fijo):** Una cuadrícula (Grid) bidimensional que reacciona matemáticamente al tamaño del monitor (`ResizeObserver`), garantizando *siempre* filas completas y eliminando el scroll de ventana (App-like UI).
+* **Catálogo y Paginación Inteligente:** Renderizado de más de 150 productos. El JS lee el CSS (`getComputedStyle`) para inyectar la cantidad exacta de tarjetas que caben en pantalla.
+* **Filtros Compuestos:** Búsqueda por texto, categorización, límite de precio dinámico (detecta el producto más caro automáticamente) y ordenamiento (A-Z, Z-A, Precio).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+*Desarrollado por Pablo R.*

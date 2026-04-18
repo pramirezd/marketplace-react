@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary);
+    color: var(--on-primary);
+    padding: 20px;
+    text-align: center;
+    box-shadow: var(--shadow-md);
+}
+
+.navButton {
+    background: none;
+    border: none;
+    color: var(--on-primary);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
