@@ -1,4 +1,5 @@
 import { useRef, useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import styles from './ProductCard.module.css';
 
 const ProductCard = ({ product, addToCart }) => {
@@ -25,25 +26,27 @@ const ProductCard = ({ product, addToCart }) => {
 
   return (
     <article className={`${styles.productCard} ${product.categoria}`}>
-      <img className={styles.image} src={product.imagen} alt={product.nombre} />
-      <h3>{product.nombre}</h3>
+      <Link to={`/producto/${product.id}`} className={styles.cardLink}>
+        <img className={styles.image} src={product.imagen} alt={product.nombre} />
+        <h3>{product.nombre}</h3>
 
-      {/*
-        Separamos flex-sizing (wrapper) de line-clamp (p interior).
-        El wrapper crece con flex:1 y corta con overflow:hidden — nada
-        desborda ni es seleccionable más allá del área visible.
-        El <p> interno aplica el line-clamp calculado dinámicamente.
-      */}
-      <div ref={wrapperRef} className={styles.descriptionWrapper}>
-        <p
-          className={styles.description}
-          style={{ WebkitLineClamp: clampLines }}
-        >
-          {product.descripcion}
-        </p>
-      </div>
+        {/*
+          Separamos flex-sizing (wrapper) de line-clamp (p interior).
+          El wrapper crece con flex:1 y corta con overflow:hidden — nada
+          desborda ni es seleccionable más allá del área visible.
+          El <p> interno aplica el line-clamp calculado dinámicamente.
+        */}
+        <div ref={wrapperRef} className={styles.descriptionWrapper}>
+          <p
+            className={styles.description}
+            style={{ WebkitLineClamp: clampLines }}
+          >
+            {product.descripcion}
+          </p>
+        </div>
 
-      <p className={styles.price}>Precio: ${product.precio}</p>
+        <p className={styles.price}>Precio: ${product.precio}</p>
+      </Link>
       <button onClick={() => addToCart(product)}>Comprar</button>
     </article>
   );
