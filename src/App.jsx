@@ -6,13 +6,23 @@ import ProductDetail from './components/ProductDetail.jsx';
 import Cart from './components/Cart.jsx';
 
 const App = () => {
-  const [theme, setTheme] = useState('light');
-  const [cart, setCart] = useState([]);
+  const [theme, setTheme] = useState(
+    () => localStorage.getItem('market-theme') || 'light'
+  );
+  const [cart, setCart] = useState(() => {
+    const saved = localStorage.getItem('market-cart');
+    return saved ? JSON.parse(saved) : [];
+  });
   const [isCartOpen, setIsCartOpen] = useState(false);
 
   useEffect(() => {
     document.body.setAttribute('data-theme', theme);
+    localStorage.setItem('market-theme', theme);
   }, [theme]);
+
+  useEffect(() => {
+    localStorage.setItem('market-cart', JSON.stringify(cart));
+  }, [cart]);
 
   function toggleTheme() {
     setTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
