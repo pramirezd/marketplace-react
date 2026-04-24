@@ -1,31 +1,45 @@
 # 🛒 Marketplace React - Full Stack Journey
 
-¡Bienvenido al repositorio de mi Marketplace! Este proyecto documenta mi evolución como desarrollador Full-Stack, partiendo desde los fundamentos de la manipulación del DOM hasta la construcción de una Single Page Application (SPA) moderna con **React** y **Vite**.
+¡Bienvenido al repositorio de mi Marketplace! Este proyecto documenta mi evolución como desarrollador Full-Stack, partiendo desde los fundamentos de la manipulación del DOM hasta la construcción de una arquitectura profesional con **React** en el frontend y **Node.js** en el backend.
 
 🔗 **Repositorio:** [https://github.com/pramirezd/marketplace-react](https://github.com/pramirezd/marketplace-react)
 
-## 🚀 Hoja de Ruta del Proyecto
+## 📁 Estructura del Proyecto
 
-El desarrollo se ha estructurado de forma incremental, superando retos técnicos en cada etapa:
+El repositorio está organizado como un monorepo para separar las responsabilidades de forma clara:
+
+```text
+marketplace-react/
+├── frontend/             # Aplicación de React (Vite)
+├── backend/              # API REST con Node.js
+└── .git/                 # Control de versiones global
+```
+
+## 🚀 Hoja de Ruta y Fases
 
 ### Fases 1 - 2: Fundamentos y Lógica Core
-- **Estructura Semántica:** Creación de una base sólida en HTML5 para accesibilidad.
-- **Lógica de Filtrado:** Implementación de motores de búsqueda y filtros por categoría y rango de precio dinámico usando JavaScript Vanilla.
-- **UX con Sliders:** Mejora de la experiencia de usuario mediante la sincronización visual de valores en los inputs.
+- **Estructura Semántica:** Base sólida en HTML5 para accesibilidad.
+- **Lógica de Filtrado:** Motores de búsqueda y filtros por categoría y precio dinámico en JS Vanilla.
+- **UX con Sliders:** Sincronización visual de valores en los inputs de rango.
 
-### Fases 3 - 5: Migración a React y Estado Complejo
-- **Componentización:** Descomposición de la interfaz en componentes funcionales reutilizables.
-- **Hooks de React:** Uso de `useState` para el estado de los filtros y `useEffect` para la carga de datos.
-- **Gestión de Datos:** Manejo de un catálogo robusto de productos con persistencia simulada mediante JSON local.
+### Fases 3 - 5: React y Gestión de Datos
+- **Componentización:** Migración a React 18 y descomposición de la UI.
+- **Hooks:** Gestión de estado con `useState` y efectos secundarios con `useEffect`.
+- **Catálogo Robusto:** Manejo de una base de datos simulada con más de 150 productos.
 
-### Fases 6 - 8: Diseño Avanzado y Escalabilidad
-- **CSS Modules:** Implementación de estilos encapsulados para evitar colisiones de nombres.
-- **Theming Dinámico (Dark/Light Mode):** Sistema de temas basado en variables `:root` y atributos de datos (`data-theme`) con transiciones suaves.
-- **Layout Profesional:** Uso de CSS Grid avanzado para crear una rejilla de productos responsiva y organizada.
+### Fases 6 - 8: Diseño y Escalabilidad
+- **CSS Modules:** Estilos encapsulados para evitar colisiones de nombres.
+- **Theming Dinámico:** Modo Oscuro/Claro basado en variables `:root` y atributos de datos.
+- **Layout Grid:** Rejilla responsiva optimizada para catálogos extensos.
+
+### Fase 9: Backend e Infraestructura (En Proceso)
+- **Node.js 24 LTS:** Uso de herramientas nativas como `--watch` para desarrollo sin dependencias externas.
+- **Arquitectura Limpia:** Separación en carpetas `routes`, `controllers` y `data`.
+- **ES Modules:** Configuración moderna con `"type": "module"` para uso de `import/export`.
 
 ## 🎨 Identidad Visual (Sistema de Diseño)
 
-He implementado una paleta de colores inspirada en líderes del sector, optimizada para la lectura y la conversión:
+Sistema de colores optimizado para la conversión:
 
 | Variable CSS | Modo Claro | Modo Oscuro | Propósito |
 | :--- | :--- | :--- | :--- |
@@ -36,32 +50,34 @@ He implementado una paleta de colores inspirada en líderes del sector, optimiza
 
 ## 🛠️ Stack Tecnológico
 
-- **Core:** React 18 & Vite.
-- **Estilos:** CSS Modules, CSS Grid, Flexbox.
-- **Estado:** React Hooks (`useState`, `useEffect`).
-- **Control de Versiones:** Git (Git CLI).
+- **Frontend:** React 18, Vite, CSS Modules.
+- **Backend:** Node.js 24 (LTS), Express (próximamente).
+- **Herramientas:** Git CLI, Native Node Watch, ES Modules.
 
-## 📦 Cómo ejecutar el proyecto localmente
+## 📦 Instalación y Ejecución Local
+
+Para poner en marcha el proyecto, sigue estos pasos:
 
 1. **Clonar el repositorio:**
    ```bash
    git clone [https://github.com/pramirezd/marketplace-react.git](https://github.com/pramirezd/marketplace-react.git)
-   ```
-
-2. **Entrar al directorio:**
-   ```bash
    cd marketplace-react
    ```
 
-3. **Instalar dependencias:**
+2. **Configurar el Frontend:**
    ```bash
+   cd frontend
    npm install
+   npm run dev
    ```
 
-4. **Correr en modo desarrollo:**
+3. **Configurar el Backend:**
    ```bash
+   cd ../backend
+   npm install
+   # Ejecución en desarrollo con el watch nativo de Node
    npm run dev
    ```
 
 ---
-*Desarrollado con enfoque en calidad de código por Pablo R.*
+*Desarrollado con enfoque en arquitectura escalable por Pablo R.*
