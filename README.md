@@ -17,20 +17,28 @@ marketplace-react/
 
 ## 🚀 Hoja de Ruta y Fases
 
-### Fases 1 - 2: Fundamentos y Lógica Core
-- **Estructura Semántica:** Base sólida en HTML5 para accesibilidad.
-- **Lógica de Filtrado:** Motores de búsqueda y filtros por categoría y precio dinámico en JS Vanilla.
-- **UX con Sliders:** Sincronización visual de valores en los inputs de rango.
+### ✅ Fases 1 a 4: Bases y Arquitectura UI
+* **Setup y Componentización:** Estructura modular y asilamiento de estilos.
+* **Theming Dinámico:** Implementación de Modo Claro/Oscuro usando el atributo `[data-theme]` en el `body`.
+* **Data-Driven Layout (Chasis Fijo):** Cuadrícula (Grid) bidimensional calculada con `useLayoutEffect` que reacciona matemáticamente al tamaño del monitor, eliminando el scroll de ventana (App-like UI).
+* **Catálogo y Paginación Inteligente:** Renderizado de productos con filtros compuestos (Búsqueda, Categoría, Rango de Precio dinámico, Ordenamiento A-Z/Precio).
 
-### Fases 3 - 5: React y Gestión de Datos
-- **Componentización:** Migración a React 18 y descomposición de la UI.
-- **Hooks:** Gestión de estado con `useState` y efectos secundarios con `useEffect`.
-- **Catálogo Robusto:** Manejo de una base de datos simulada con más de 150 productos.
+### ✅ Fase 5: Git y Control de Versiones
+* Inicialización del repositorio y establecimiento de políticas de Commits Atómicos.
+* Documentación evolutiva (README.md).
 
-### Fases 6 - 8: Diseño y Escalabilidad
-- **CSS Modules:** Estilos encapsulados para evitar colisiones de nombres.
-- **Theming Dinámico:** Modo Oscuro/Claro basado en variables `:root` y atributos de datos.
-- **Layout Grid:** Rejilla responsiva optimizada para catálogos extensos.
+### ✅ Fase 6: El Carrito de Compras (Estado Global)
+* **Lifting State Up:** Elevación del estado del carrito a la raíz (`App.jsx`) para distribuir datos y acciones mediante Props.
+* **Inmutabilidad:** Manejo estricto del estado de React usando métodos funcionales (`.map`, `.filter`, `spread operator`) para evitar mutaciones directas.
+* **Datos Derivados:** Cálculo del total de ítems al vuelo usando `.reduce()`.
+
+### ✅ Fase 7: React Router y Offcanvas
+* **Single Page Application (SPA):** Implementación de `react-router-dom` para navegación instantánea al detalle del producto sin recargas de página.
+* **Panel de Carrito:** Creación de un componente lateral (Offcanvas) con cálculos en tiempo real y formateo de moneda (CLP).
+
+### ✅ Fase 8: Persistencia de Datos (LocalStorage)
+* **Lazy Initial State:** Optimización del rendimiento leyendo el almacenamiento del navegador solo en el montaje inicial.
+* **Sincronización:** Uso de `useEffect` para persistir el carrito y las preferencias de tema (Dark/Light).
 
 ### ✅ Fase 9: Node.js & Express (Backend API)
 * **Arquitectura Cliente-Servidor:** Separación estricta entre el Frontend (Puerto 5173) y el Backend (Puerto 3001).
