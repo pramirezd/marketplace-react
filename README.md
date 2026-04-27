@@ -32,10 +32,16 @@ marketplace-react/
 - **Theming Dinámico:** Modo Oscuro/Claro basado en variables `:root` y atributos de datos.
 - **Layout Grid:** Rejilla responsiva optimizada para catálogos extensos.
 
-### Fase 9: Backend e Infraestructura (En Proceso)
-- **Node.js 24 LTS:** Uso de herramientas nativas como `--watch` para desarrollo sin dependencias externas.
-- **Arquitectura Limpia:** Separación en carpetas `routes`, `controllers` y `data`.
-- **ES Modules:** Configuración moderna con `"type": "module"` para uso de `import/export`.
+### ✅ Fase 9: Node.js & Express (Backend API)
+* **Arquitectura Cliente-Servidor:** Separación estricta entre el Frontend (Puerto 5173) y el Backend (Puerto 3001).
+* **API REST:** Servidor Express exponiendo endpoints para consumo de datos.
+* **Seguridad:** Configuración de CORS.
+* **Módulos ES:** Uso de import/export nativo en el ecosistema Node.
+
+### ✅ Fase 10: Base de Datos Relacional (SQLite)
+* **Migración SQL:** Implementación del motor SQLite3 para reemplazar el almacenamiento estático.
+* **Seeders:** Creación de un script (`seed.js`) con consultas preparadas (Prepared Statements) para inyectar masivamente el catálogo inicial de productos garantizando la idempotencia.
+* **Endpoints Dinámicos:** Refactorización de la ruta `GET /api/products` para consultar los datos directamente mediante SQL (`SELECT`).
 
 ## 🎨 Identidad Visual (Sistema de Diseño)
 
