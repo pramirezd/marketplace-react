@@ -4,6 +4,7 @@ import Navbar from './components/Navbar.jsx';
 import Home from './components/Home.jsx';
 import ProductDetail from './components/ProductDetail.jsx';
 import Cart from './components/Cart.jsx';
+import Login from './components/Login.jsx';
 
 const App = () => {
   const [theme, setTheme] = useState(
@@ -14,6 +15,22 @@ const App = () => {
     return saved ? JSON.parse(saved) : [];
   });
   const [isCartOpen, setIsCartOpen] = useState(false);
+  const [isLoginOpen, setIsLoginOpen] = useState(false);
+  const [token, setToken] = useState(
+    () => localStorage.getItem('market-token') || null
+  );
+
+  useEffect(() => {
+    if (token) {
+      localStorage.setItem('market-token', token);
+    } else {
+      localStorage.removeItem('market-token');
+    }
+  }, [token]);
+
+  function logout() {
+    setToken(null);
+  }
 
   useEffect(() => {
     document.body.setAttribute('data-theme', theme);
@@ -68,6 +85,9 @@ const App = () => {
         toggleTheme={toggleTheme}
         totalCartItems={totalCartItems}
         openCart={() => setIsCartOpen(true)}
+        token={token}
+        logout={logout}
+        openLogin={() => setIsLoginOpen(true)}
       />
       <Routes>
         <Route path="/" element={<Home addToCart={addToCart} />} />
@@ -83,6 +103,12 @@ const App = () => {
           removeFromCart={removeFromCart}
           updateQuantity={updateQuantity}
           clearCart={clearCart}
+        />
+      )}
+      {isLoginOpen && (
+        <Login
+          setToken={setToken}
+          onClose={() => setIsLoginOpen(false)}
         />
       )}
     </>

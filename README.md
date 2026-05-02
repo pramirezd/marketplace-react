@@ -51,6 +51,11 @@ marketplace-react/
 * **Seeders:** Creación de un script (`seed.js`) con consultas preparadas (Prepared Statements) para inyectar masivamente el catálogo inicial de productos garantizando la idempotencia.
 * **Endpoints Dinámicos:** Refactorización de la ruta `GET /api/products` para consultar los datos directamente mediante SQL (`SELECT`).
 
+### ✅ Fase 11: Autenticación y Seguridad (JWT)
+* **Hashing de Contraseñas:** Uso de `bcrypt` con Salt Rounds para encriptación unidireccional en el registro de usuarios.
+* **JSON Web Tokens (JWT):** Implementación de arquitectura *stateless* generando firmas digitales (Tokens) en el Login para autorizar al cliente sin persistir sesiones en el servidor de Node.
+* **UX de Acceso:** Formularios controlados en React renderizados vía Modales flotantes para no interrumpir el flujo de navegación del usuario.
+
 ## 🎨 Identidad Visual (Sistema de Diseño)
 
 Sistema de colores optimizado para la conversión:

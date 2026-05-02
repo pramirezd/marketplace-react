@@ -1,13 +1,17 @@
 import { FaShoppingCart, FaUser, FaMoon, FaSun } from 'react-icons/fa';
 import styles from './Navbar.module.css';
 
-const Navbar = ({ theme, toggleTheme, totalCartItems, openCart }) => {
+const Navbar = ({ theme, toggleTheme, totalCartItems, openCart, token, logout, openLogin }) => {
   return (
     <>
         <header className={styles.header}>
             <h1>Mini Marketplace</h1>
             <nav>
-                <button className={styles.navButton}>Iniciar Sesión</button>
+                {token ? (
+                    <button className={styles.navButton} onClick={logout}>Cerrar Sesión</button>
+                ) : (
+                    <button className={styles.navButton} onClick={openLogin}>Iniciar Sesión</button>
+                )}
                 <button className={styles.navButton}>Registrarse</button>
                 <button className={styles.navButton} onClick={openCart}>
                     <FaShoppingCart />

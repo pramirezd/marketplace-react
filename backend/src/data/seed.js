@@ -10,6 +10,13 @@ const productsJSON = JSON.parse(readFileSync(join(__dirname, './data.json'), 'ut
 // db.serialize asegura que las consultas SQL se ejecuten en orden, una tras otra.
 db.serialize(() => {
     // 2. Limpiar terreno (Idempotencia)
+    db.run(`DROP TABLE IF EXISTS users`);
+    db.run(`CREATE TABLE users (
+        id INTEGER PRIMARY KEY,
+        email TEXT UNIQUE,
+        password TEXT
+    )`);
+
     db.run(`DROP TABLE IF EXISTS products`);
 
     // 3. Crear el Esquema de la tabla
